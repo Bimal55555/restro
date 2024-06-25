@@ -1,0 +1,343 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('myhotel .jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.nav {
+
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 56px;
+  background-color: black;
+  color: white;
+  padding: 8px 0;
+
+
+
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 16px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.items li {
+  font-weight: bolder;
+  list-style: none;
+  margin: 0px 12px;
+  font-size: 16px;
+
+}
+
+.logo a,
+.items li a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-white {
+  color: white;
+
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sub-title {
+
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 12px;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: white;
+  
+
+}
+
+.title {
+  font-size: 56px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  margin: 26px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-white {
+  color: white;
+  font-size: 24px;
+}
+
+
+.btn {
+
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  margin: 15px;
+  background-color: gray;
+  text-decoration: none;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 12px;
+  width: 150px;
+}
+
+.item a:hover {
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  border: 2px solid white;
+  font-weight: bolder;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.navbtn {
+  display: none;
+}
+
+.home {
+  margin: 4rem;
+  border-radius: 12px;
+  color: white;
+}
+
+.home>div>h1 {
+  font-size: 36px;
+  margin-left: 16px;
+}
+
+.bed {
+  border: 3px solid white;
+  margin: 6px;
+}
+
+
+
+.flexc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rooms {
+  height: 100%;
+  margin-top: 34px;
+
+}
+
+.card {
+  border: 2px solid white;
+  width: 400px;
+  height: 500px;
+  margin: 12px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  background-color: white;
+      
+
+}
+.title {
+  font-size: 56px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  margin: 26px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-white {
+  color: white;
+  font-size: 24px;
+}
+
+p {
+  padding: 23px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.form {
+  border: 2px solid white;
+  width: 450px;
+  height: 60vh;
+  border-radius: 12px;
+  margin: 12px auto;
+}
+
+.log {
+  text-align: center;
+  margin-bottom: 12px;
+  color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.social-media {
+  display: flex;
+  padding: 0;
+}
+
+.social-media li {
+  margin-right: 10px;
+
+  
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+  .items {
+    display: none;
+  }
+
+  .rooms {
+    flex-direction: column;
+  }
+
+  .home {
+    font-size: small;
+    flex-direction: column;
+    margin-top: 34px;
+    overflow: hidden;
+
+
+  }
+
+  .navbtn {
+    display: inline-block;
+    margin: 23px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {      
+  .home>div>h1 {
+    font-size: 26px;
+    margin-left: 16px;
+  }
+
+
+  .bed>img {
+    width: 350px;
+  }
+
+  .logo {
+
+    font-size: 18px;
+  }
+
+
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 8px;
+
+  }
+
+  .form {
+    width: 360px;
+  }
+
+  h1.title {
+    font-size: 24px;
+  }
+}
